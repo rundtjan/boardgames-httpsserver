@@ -1,0 +1,208 @@
+.board {
+	position: relative; 
+	display: block; 
+	width:1000px; 
+	margin: auto
+}
+
+.overlay {
+	display: block;
+	position: absolute;
+	background-color: rgba(255,255,255,0)
+}
+
+.room {
+	width: 200px;
+	margin: 2px;
+}
+
+.menyn {
+	margin: auto;
+	display: block;
+	width: 500px;
+	text-align: center;
+}
+
+#boardoverlay {
+	top: 0;
+	left: 0;
+	width: 1000px;
+	height: 563px;
+}
+
+.piece {
+	display: block;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 50px;
+	height: 50px;
+	border-radius: 25px;
+	border-style: solid;
+}
+
+.pieceoverlay {
+	width: 50px;
+	height: 50px;
+	border-radius: 25px;
+}
+
+#background {
+	position: absolute;
+}
+
+.question {
+	display: block;
+	width: 130px;
+	height: 100%;
+	color: white;
+	position: absolute;
+	text-align: center;
+	font-size: 23px;
+	font-weight: bold;
+}
+
+#one {
+	top: 40px;
+	left: 230px;
+}
+
+#two {
+	top: 40px;
+	left: 420px;
+}
+
+#three {
+	top: 40px;
+	left: 615px;
+}
+
+#four {
+	top: 35px;
+	left: 805px;
+	color: black;
+}
+
+#five {
+	top: 215px;
+	left: 805px;
+}
+
+#six {
+	top: 215px;
+	left: 615px;
+}
+
+#seven {
+	top: 205px;
+	left: 420px;
+	font-size: 20px;
+}
+
+#eight {
+	top: 210px;
+	left: 230px;
+}
+
+#nine {
+	top: 200px;
+	left: 35px;
+	color: black;
+	font-size: 22px;
+}
+
+#ten {
+	top: 400px;
+	left: 35px;
+}
+
+#eleven {
+	top: 395px;
+	left: 220px;
+	font-size: 18px;
+	width: 150px;
+}
+
+#twelve {
+	top: 400px;
+	left: 420px;
+}
+
+#thirteen {
+	top: 400px;
+	left: 615px;
+	color: black;
+}
+
+.name {
+	position: absolute;
+	left: 15px;
+	top: 7px;
+	cursor: pointer;
+	font-size: 20px;
+}
+
+.diceclick {
+	position: relative;
+	display: block;
+	width: 370px;
+	height: 50px;
+	margin: auto;
+}
+
+#kasta {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100px;
+	height: 50px;
+	font-size: 20px;
+}
+
+.dice {
+	position: absolute;
+	top: 0px;
+	left: 110px;
+}
+
+#thedice {
+	width: 50px;
+}
+
+#deltagare {
+	position: absolute;
+	top: 0px;
+	left: 180px;
+	width: 100px;
+	height: 50px;
+	font-size: 20px;
+}
+
+#mindre, #mera {
+	position: absolute;
+	width: 20px;
+	height: 30px;
+	font-size: 20px;
+	padding: none;
+}
+
+#mindre {
+	top: 10px;
+	left: 290px;
+}
+
+#mera {
+	top: 10px;
+	left: 345px;
+}
+
+#antal {
+	display: block;
+	width: 20px;
+	height: 30px;
+	position: absolute;
+	text-align: center;
+	font-size: 25px;
+	top: 5px;
+	left: 320px;
+}

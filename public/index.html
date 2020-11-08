@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="fi">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <!--<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">-->
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="public/css/bootstrap.min.css">
+    <link rel="stylesheet" href="public/css/main.css">
+
+    <title>Spel & sånt</title>
+    <body>
+      <div class="diceclick">
+        <button class="btn btn-primary" id="kasta">Kasta</button>
+        <div class="dice">
+          <img id="thedice" src="/public/img/dice1.jpg">
+        </div>
+        <button class="btn" id="deltagare">Deltagare:</button>
+        <button class="btn btn-primary" id="mindre">-</button>
+        <div id="antal">4</div>
+        <button class="btn btn-primary" id="mera">+</button>
+      </div>
+  <div class="board" id="board">
+    <img id="background" src="public/img/spel_repetera1.jpg">
+    <div class="question" id="one">1. Räkna från 1 till 50.</div>
+    <div class="question" id="two">2. Berätta om dig själv!</div>
+    <div class="question" id="three">3. Räkna upp hela alfabetet!</div>
+    <div class="question" id="four">4. Vilka färger finns på spelbrädet?</div>
+    <div class="question" id="five">5. Räkna upp 10 verb. Gör meningar.</div>
+    <div class="question" id="six">6. Räkna upp veckans alla dagar.</div>
+    <div class="question" id="seven">7. Hur säger man 500, 1000, 2000, 10000 och 100000?</div>
+    <div class="question" id="eight">8. Vilka kläder och färger har du på dig?</div>
+    <div class="question" id="nine">9. Räkna upp tio saker som finns i ett klassrum.</div>
+    <div class="question" id="ten">10. Berätta om en vanlig dag.</div>
+    <div class="question" id="eleven">11. Gör meningar med frågeorden: VEM, VAD, NÄR, VARIFRÅN och VAR.</div>
+    <div class="question" id="twelve">12. Räkna från 50 till 100.</div>
+    <div class="question" id="thirteen">13. Räkna upp alla vokaler.</div>
+    <div class="overlay" id="boardoverlay"></div>
+    <div class="piece" id="redpiece" style="background-color:red"><div id="redtext" class="name"></div></div>
+    <div class="overlay pieceoverlay" id="redpieceoverlay"></div>
+    <div class="piece" id="bluepiece" style="background-color:blue"><div class="name"></div></div>
+    <div class="overlay pieceoverlay" id="bluepieceoverlay"></div>
+    <div class="piece" id="greenpiece" style="background-color:green"><div class="name"></div></div>
+    <div class="overlay pieceoverlay" id="greenpieceoverlay"></div>
+    <div class="piece" id="whitepiece" style="background-color:white"><div class="name"></div></div>
+    <div class="overlay pieceoverlay" id="whitepieceoverlay"></div>
+    <div class="piece" id="blackpiece" style="background-color:black"><div class="name"></div></div>
+    <div class="overlay pieceoverlay" id="blackpieceoverlay"></div>
+    <div class="piece" id="orangeredpiece" style="background-color:orangered"><div class="name"></div></div>
+    <div class="overlay pieceoverlay" id="orangeredpieceoverlay"></div>
+    <div class="piece" id="yellowpiece" style="background-color: yellow"><div class="name"></div></div>
+    <div class="overlay pieceoverlay" id="yellowpieceoverlay"></div>
+    <div class="piece" id="violetpiece" style="background-color: violet"><div class="name"></div></div>
+    <div class="overlay pieceoverlay" id="violetpieceoverlay"></div>
+  </div>
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+  <script type="text/javascript" src="app/controllers/client.js"></script>
+  </body>
+</html>
